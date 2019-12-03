@@ -7,3 +7,12 @@ d:\Рабочий стол\Ялпута проекты\Функции\Функц
 d:\Рабочий стол\Ялпута проекты\Функции\Функции\obj\Debug\Функции.csproj.GenerateResource.cache
 d:\Рабочий стол\Ялпута проекты\Функции\Функции\obj\Debug\Функции.exe
 d:\Рабочий стол\Ялпута проекты\Функции\Функции\obj\Debug\Функции.pdb
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\bin\Debug\Функции.exe.config
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\bin\Debug\Функции.exe
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\bin\Debug\Функции.pdb
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\obj\Debug\Функции.csprojAssemblyReference.cache
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\obj\Debug\Функции.Form1.resources
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\obj\Debug\Функции.Properties.Resources.resources
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\obj\Debug\Функции.csproj.GenerateResource.cache
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\obj\Debug\Функции.exe
+d:\Рабочий стол\Ялпута проекты\Functions\Функции\obj\Debug\Функции.pdb

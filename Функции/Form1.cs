@@ -67,6 +67,63 @@ namespace Функции
                 richTextBox1.Text += " " + arr[i];
             }
         }
+        public void mass2(int[] arr)
+        {
+            string str = "";
+            bool flag = true;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] < 0)
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) str += "Все числа больше нуля\n";
+            flag = true;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] % 1 != 0)
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) str += "Все числа целые\n";
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] % 3 != 0)
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) str += "Все числа кратны 3\n";
+            flag = true;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (Math.Abs(arr[i]) < 100 || arr[i] > 1000)
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) str += "Все числа - трехзначные\n";
+            flag = true;
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[0] > arr[i])
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) str += "Первое число меньше остальных\n";
+
+            MessageBox.Show(str);
+
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -110,6 +167,19 @@ namespace Функции
                 arr[i] = R.Next(1, 50);
             }
             mass(arr);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "";
+            Random R = new Random();
+            int[] arr = new int[20];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = R.Next(-1000, 1001);
+                richTextBox1.Text += " " + arr[i];
+            }
+            mass2(arr);
         }
     }
 }
